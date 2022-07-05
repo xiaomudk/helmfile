@@ -26,11 +26,11 @@ linters:
     - golint
     - misspell
     - govet
-    - goconst
+    # - goconst
     - deadcode
     - gocyclo
     - staticcheck
-    - errcheck
+    # - errcheck
 
 output:
   format: colored-line-number
